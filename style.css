@@ -79,10 +79,12 @@ body{
 }
 
 .hero h2{
-    font-family:'Permanent Marker', cursive;
+    font-family:'Barlow Condensed', sans-serif;
+    font-style:italic;
+    font-weight:700;
     color:#ff2d55;
-    font-size:30px;
-    font-weight:400;
+    font-size:34px;
+    letter-spacing:1px;
     margin-top:5px;
     margin-bottom:20px;
 }
