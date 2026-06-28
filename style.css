@@ -70,23 +70,15 @@ body{
 }
 
 .hero h1{
-    font-family:'Bebas Neue', sans-serif;
-    font-size:78px;
-    font-weight:400;
-    letter-spacing:4px;
-    line-height:1;
-    margin-bottom:8px;
+    font-size:54px;
+    font-weight:800;
+    letter-spacing:3px;
 }
 
 .hero h2{
-    font-family:'Barlow Condensed', sans-serif;
-    font-style:italic;
-    font-weight:700;
     color:#ff2d55;
-    font-size:34px;
-    letter-spacing:1px;
     margin-top:5px;
-    margin-bottom:20px;
+    margin-bottom:18px;
 }
 
 
