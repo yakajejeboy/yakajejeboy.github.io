@@ -12,7 +12,8 @@ body{
     align-items:center;
     background:#050505;
     color:#fff;
-    overflow:hidden;
+    overflow-y:auto;
+    overflow-x:hidden;
     position:relative;
 }
 
