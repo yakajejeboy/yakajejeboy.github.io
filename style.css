@@ -124,6 +124,7 @@ text-decoration:none;
 color:#fff;
 margin-bottom:16px;
 transition:.3s;
+padding: 18x 22px;
 }
 
 .card-btn:hover{
@@ -134,7 +135,7 @@ box-shadow:0 0 30px rgba(255,45,85,.35);
 .left{
 display:flex;
 align-items:center;
-gap:16px;
+gap:18px;
 }
 
 .icon-circle{
@@ -162,5 +163,5 @@ color:#999;
 
 .arrow{
 color:#ff2d55;
-font-size:18px;
+font-size:24px;
 }
