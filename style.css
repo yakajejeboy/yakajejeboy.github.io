@@ -18,33 +18,40 @@ body{
 .background{
     position:fixed;
     inset:0;
-    background:url("https://images.unsplash.com/photo-1542223616-740d5dff9715?auto=format&fit=crop&w=1600&q=80") center center/cover no-repeat;
-    filter:blur(6px) brightness(.35);
-    transform:scale(1.1);
+    background:url("https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1600&q=80") center center/cover no-repeat;
+    filter:brightness(.28);
+    transform:scale(1.05);
 }
 
 .overlay{
     position:fixed;
     inset:0;
-    background:linear-gradient(
-        rgba(0,0,0,.45),
-        rgba(0,0,0,.85)
+    background:
+    linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.80)
     );
 }
 
 .hero{
-    margin:0 auto;
+    margin:30px auto;
     position:relative;
     z-index:2;
-    width:90%;
-    max-width:430px;
-    padding:40px 25px;
+    width:92%;
+    max-width:470px;
+
+    padding:35px 25px;
+
+    background:rgba(10,10,10,.35);
+    backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:30px;
+
+    box-shadow:
+    0 0 80px rgba(255,0,60,.15);
+
     text-align:center;
-    border-radius:28px;
-    background:rgba(255,255,255,.06);
-    backdrop-filter:blur(18px);
-    border:1px solid rgba(255,255,255,.12);
-    box-shadow:0 0 40px rgba(255,45,85,.18);
 }
 
 .profile-box{
